@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticeEHR Meta Ad V2 - Mockup</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #e5e5e5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .ad-container {
+            width: 540px;
+            height: 540px;
+            background: #FDF8F3;
+            border-radius: 8px;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 30px;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            position: relative;
+        }
+
+        .logo-icon svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .logo-text span {
+            color: #4A90D9;
+        }
+
+        .logo-tagline {
+            font-size: 10px;
+            color: #4A90D9;
+            margin-left: 48px;
+            margin-top: -8px;
+        }
+
+        .pills-container {
+            position: relative;
+            height: 200px;
+            margin-bottom: 30px;
+        }
+
+        .pill {
+            position: absolute;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            white-space: nowrap;
+        }
+
+        .pill-1 {
+            background: linear-gradient(135deg, #FF9500 0%, #FF7B00 100%);
+            top: 0;
+            left: 20px;
+            transform: rotate(-5deg);
+        }
+
+        .pill-2 {
+            background: linear-gradient(135deg, #34C759 0%, #28A745 100%);
+            top: 10px;
+            left: 140px;
+            transform: rotate(8deg);
+            z-index: 2;
+        }
+
+        .pill-3 {
+            background: linear-gradient(135deg, #FF3B5C 0%, #E91E63 100%);
+            top: 5px;
+            right: 20px;
+            transform: rotate(-3deg);
+        }
+
+        .pill-4 {
+            background: linear-gradient(135deg, #5856D6 0%, #7C4DFF 100%);
+            top: 60px;
+            left: 10px;
+            transform: rotate(3deg);
+        }
+
+        .pill-5 {
+            background: linear-gradient(135deg, #AF52DE 0%, #9C27B0 100%);
+            top: 70px;
+            left: 150px;
+            transform: rotate(-4deg);
+            z-index: 1;
+        }
+
+        .pill-6 {
+            background: linear-gradient(135deg, #FFD60A 0%, #FFCA28 100%);
+            top: 130px;
+            left: 80px;
+            transform: rotate(6deg);
+            color: #333;
+        }
+
+        .pill-7 {
+            background: linear-gradient(135deg, #30D158 0%, #4CAF50 100%);
+            top: 140px;
+            right: 60px;
+            transform: rotate(-8deg);
+        }
+
+        .headline {
+            font-size: 36px;
+            font-weight: 800;
+            color: #1a1a1a;
+            line-height: 1.15;
+            margin-bottom: 16px;
+        }
+
+        .subhead {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .version-label {
+            position: absolute;
+            top: -30px;
+            left: 0;
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .comparison {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .ad-wrapper {
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .notes {
+            max-width: 540px;
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .notes h3 {
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        .notes ul {
+            margin-left: 20px;
+        }
+
+        .notes li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>PracticeEHR Meta Ad V2 - Improved Design</h1>
+
+        <div class="comparison">
+            <div class="ad-wrapper">
+                <span class="version-label">V2 - WARMER DESIGN</span>
+                <div class="ad-container">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 5L20 35M5 20L35 20" stroke="#4A90D9" stroke-width="4" stroke-linecap="round"/>
+                                <path d="M12 12L12 28M28 12L28 28" stroke="#4A90D9" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                                <path d="M12 12L28 12M12 28L28 28" stroke="#4A90D9" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="logo-text">Practice<span>EHR</span></div>
+                            <div class="logo-tagline">Simplifying Healthcare</div>
+                        </div>
+                    </div>
+
+                    <!-- Pills -->
+                    <div class="pills-container">
+                        <div class="pill pill-1">No-Shows</div>
+                        <div class="pill pill-2">Burnt-Out Staff</div>
+                        <div class="pill pill-3">Rework Pile</div>
+                        <div class="pill pill-4">Click Bloat</div>
+                        <div class="pill pill-5">Pajama-Time Charting</div>
+                        <div class="pill pill-6">Missed Dinners</div>
+                        <div class="pill pill-7">Denials</div>
+                    </div>
+
+                    <!-- Copy -->
+                    <div class="headline">Recognize These Symptoms?</div>
+                    <div class="subhead">Time for a second opinion on your EHR.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="notes">
+            <h3>V2 Changes Applied:</h3>
+            <ul>
+                <li><strong>Background:</strong> Warm cream (#FDF8F3) instead of cold gray</li>
+                <li><strong>Headline:</strong> Shorter question hook for higher engagement</li>
+                <li><strong>Subhead:</strong> Maintains medical metaphor, implies switching</li>
+                <li><strong>Pills:</strong> Kept high-emotion pain points, vibrant gradients</li>
+                <li><strong>Overall:</strong> Warmer, more inviting feel while keeping brand identity</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
